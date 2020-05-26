@@ -1,4 +1,4 @@
-function selectSort(arr) {
+/* function selectSort(arr) {
   let res = [];
   while (arr.length > 0) {
     let min = arr[0];
@@ -15,6 +15,17 @@ function selectSort(arr) {
     arr = temp;
   }
   return res;
+}
+*/
+
+function selectSort(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i; j < arr.length; j++) {
+      if (arr[j] < arr[i]) {
+        [arr[i], arr[j]] = [arr[j], arr[i]]
+      }
+    }
+  }
 }
 
 function test() {

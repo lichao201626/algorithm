@@ -18,6 +18,8 @@
 }
 */
 
+// this also some kind select sort but not using temp save the min or max value
+// just swap any smaller one to the position, (purpose is to find the min or max for one loop at last) 
 function selectSort(arr) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = i; j < arr.length; j++) {

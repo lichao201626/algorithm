@@ -27,3 +27,10 @@ console.log(str.substr(3, -2))
 console.log(str.slice(3, -2))
 // start 0 end 3
 console.log(str.substring(3, -2))
+
+
+console.log(new Date(1594276968000))
+console.log(new Date(1594277097000))
+console.log(new Date(1594278009000))
+
+console.log(new Date(1594276951000))
